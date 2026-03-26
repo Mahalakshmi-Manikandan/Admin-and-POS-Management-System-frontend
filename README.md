@@ -1,16 +1,82 @@
-# React + Vite
+# Admin & POS Management System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Admin & Point of Sale (POS) Management System (Frontend)** built to streamline business operations such as user management, billing, and inventory tracking.
 
-Currently, two official plugins are available:
+This project was developed as part of a **Company task**, focusing on real-world application development using modern frontend technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The system provides an intuitive interface for administrators and staff to manage daily operations efficiently. It integrates with backend APIs to handle data securely and dynamically.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### Authentication & Authorization
+- Secure login system
+- Role-based access (Admin / Staff)
+- Token/local storage-based session management
+
+### Admin Dashboard
+- Manage users (Add / Edit / Delete)
+- View system overview
+- Control access and operations
+
+### POS (Point of Sale)
+- Create billing orders
+- Add products dynamically
+- Real-time price calculation
+- Apply discounts and promotions
+- Generate and print bills
+
+### Inventory Management
+- Add / update / delete products
+- Track stock levels
+- Manage categories and pricing
+
+###  Reports
+- View sales data
+- Track performance (basic analytics)
+
+### UI/UX
+- User-friendly navigation
+
+---
+
+## Tech Stack
+
+- React.js
+- CSS / Tailwind CSS
+- Axios (API integration)
+- REST APIs
+- React Hooks (useState, useEffect)
+
+---
+
+## Project Structure
+
+
+src/
+│── components/ # Reusable components
+│── pages/ # Application pages (Login, Admin, POS)
+│── lib/ # API configuration
+│── assets/ # Static files
+│── App.jsx # Root component
+│── main.jsx # Entry point
+
+
+---
+
+##  Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Mahalakshmi-Manikandan/Admin-and-POS-Management-System-frontend.git
+2️⃣ Navigate to project
+cd Admin-and-POS-Management-System-frontend
+3️⃣ Install dependencies
+npm install
+4️⃣ Run the project
+npm run dev

@@ -60,23 +60,33 @@ The system provides an intuitive interface for administrators and staff to manag
 
 src/
 │── components/ # Reusable components
+
 │── pages/ # Application pages (Login, Admin, POS)
+
 │── lib/ # API configuration
+
 │── assets/ # Static files
+
 │── App.jsx # Root component
+
 │── main.jsx # Entry point
 
 
----
 
 ##  Installation & Setup
 
-### 1️⃣ Clone the repository
-```bash
+1️⃣ Clone the repository
+
 git clone https://github.com/Mahalakshmi-Manikandan/Admin-and-POS-Management-System-frontend.git
+
 2️⃣ Navigate to project
+
 cd Admin-and-POS-Management-System-frontend
+
 3️⃣ Install dependencies
+
 npm install
+
 4️⃣ Run the project
+
 npm run dev
